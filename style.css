@@ -1,8 +1,10 @@
+/*Styles body of page*/
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+/*Style of text area in time blocks*/
 textarea {
   background: transparent;
   border: none;
@@ -11,40 +13,40 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/*Style description*/
 .description {
   white-space: pre-wrap;
 }
-
+/*Gives a border radius to the time block area*/
 .time-block {
   border-radius: 15px;
 }
-
+/*Adds solid white border at top of row*/
 .row {
   border-top: 1px solid white;
 }
-
+/*Styles hour classs*/
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/*Past styling*/
 .past {
   background-color: #d3d3d3;
   color: white;
 }
-
+/*Present styling*/
 .present {
   background-color: #ff6961;
   color: white;
 }
-
+/*Future styling*/
 .future {
   background-color: #77dd77;
   color: white;
 }
-
+/*Styles save button*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -52,7 +54,7 @@ textarea {
   background-color: #06aed5;
   color: white;
 }
-
+/*Styles button when cursor hovers over element*/
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
